@@ -1,0 +1,305 @@
+img.center {
+	display: block;
+	margin: auto;
+}
+
+td > img {
+	width:100px;
+	border:0px;
+}
+
+h1 {
+	font-size:220%;
+}
+h2 {
+	font-size:190%;
+}
+
+h3 {
+	font-size:150%;
+}
+
+h4 {
+	font-size:130%;
+	color:#7155D4;
+	font-weight: bold;
+}
+
+h5 {
+}
+
+.outline-text-2 {
+    overflow-x: auto;
+}
+/*  ######   #######  ##     ## ########   ######  ######## */
+/* ##    ## ##     ## ##     ## ##     ## ##    ## ## */
+/* ##       ##     ## ##     ## ##     ## ##       ## */
+/*  ######  ##     ## ##     ## ########  ##       ###### */
+/*       ## ##     ## ##     ## ##   ##   ##       ## */
+/* ##    ## ##     ## ##     ## ##    ##  ##    ## ## */
+/*  ######   #######   #######  ##     ##  ######  ######## */
+
+pre.src {
+	color:white;
+	background-color:#303030;
+}
+
+pre.src:before {
+	text-align:center;
+	font-weight:bold;
+	top:0px;
+	left:0px;
+	right:-webkit-calc(100% - 90px);
+	color:white;
+	/* border:1px solid rgb(225, 228, 229); */
+	border:1px solid rgb(100, 150, 229);
+	box-shadow:0px 0px 5px rgb(100, 150, 238);
+	background-color: rgba(80, 80, 80, 0.7);
+}
+
+pre.src-asympote:before {content:"Asympote";}
+pre.src-awk:before {content:"Awk";}
+pre.src-C:before {content:"C";}
+pre.src-C++:before {content:"C++";}
+pre.src-clojure:before {content:"Clojure";}
+pre.src-css:before {content:"CSS";}
+pre.src-d:before {content:"D";}
+pre.src-ditaa:before {content:"Ditaa";}
+pre.src-dot:before {content:"Dot";}
+pre.src-calc:before {content:"Emacs Calc";}
+pre.src-emacs-lisp:before {content:"Emacs Lisp";}
+pre.src-fortran:before {content:"Fortran";}
+pre.src-gnuplot:before {content:"Gnuplot";}
+pre.src-haskell:before {content:"Haskell";}
+pre.src-web:before {content:"HTML";}
+pre.src-java:before {content:"Java";}
+pre.src-js:before {content:"Java Script";}
+pre.src-latex:before {content:"LaTeX";}
+pre.src-ledger:before {content:"Ledger";}
+pre.src-lisp:before {content:"Lisp";}
+pre.src-lilypond:before {content:"Lilypond";}
+pre.src-matlab:before {content:"MATLAB";}
+pre.src-mscgen:before {content:"Mscgen";}
+pre.src-ocaml:before {content:"Ocaml";}
+pre.src-octave:before {content:"Octave";}
+pre.src-org:before {content:"Org Mode";}
+pre.src-oz:before {content:"OZ";}
+pre.src-perl:before {content:"Perl";}
+pre.src-plantuml:before {content:"Plantuml";}
+pre.src-processing:before {content:"Processing";}
+pre.src-python:before {content:"Python";}
+pre.src-R:before {content:"R";}
+pre.src-ruby:before {content:"Ruby";}
+pre.src-sass:before {content:"Sass";}
+pre.src-scheme:before {content:"Scheme";}
+pre.src-screen:before {content:"Screen";}
+pre.src-sed:before {content:"Sed";}
+pre.src-sh:before {content:"Shell";}
+pre.src-sql:before {content:"SQL";}
+pre.src-sqlite:before {content:"SQLite";}
+
+del {
+	color:gray;
+}
+
+kbd {
+	display:inline-block;
+	padding:3px 5px;
+	font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 11px;
+	line-height: 10px;
+	color: #555;
+	vertical-align: middle;
+	background-color: #fcfcfc;
+	border: solid 1px #ccc;
+	border-bottom-color: #bbb;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.org-hashtag {
+	top: 0px;
+	height: 24px;
+	padding: 0px 6px 0px 4px;
+	letter-spacing: -1px;
+	font-size:16px;
+	color: #309c40;
+	border-left: 4px solid #309c40;
+	background-color: #c7e2cc;
+	border-radius: 3px;
+	line-height: 22px;
+	text-decoration:none;
+}
+.org-hashtag > a {
+	color: #309c40;
+}
+.org-hashtag:hover {
+	top: 0px;
+	height: 24px;
+	padding: 0px 6px 0px 4px;
+	letter-spacing: -1px;
+	font-size:16px;
+	color: #304030;
+	border-left: 4px solid #303030;
+	background-color: #AAAAAA;
+	border-radius: 3px;
+	line-height: 22px;
+	text-decoration:none;
+}
+
+/*  #######  ########   ######      ########    ###     ###### */
+/* ##     ## ##     ## ##    ##        ##      ## ##   ##    ## */
+/* ##     ## ##     ## ##              ##     ##   ##  ## */
+/* ##     ## ########  ##   ####       ##    ##     ## ##   #### */
+/* ##     ## ##   ##   ##    ##        ##    ######### ##    ## */
+/* ##     ## ##    ##  ##    ##        ##    ##     ## ##    ## */
+/*  #######  ##     ##  ######         ##    ##     ##  ###### */
+
+.org-tags {
+	margin:0;
+	padding:0;
+	position:relative;
+	right:12px;
+	bottom:0px;
+	list-style:none;
+}
+.org-tags li, .org-tags span {
+	float:left;
+	height:20px;
+	line-height:20px;
+	position:relative;
+	font-size:13px;
+}
+.org-tags span{
+	margin-left:0px;
+	padding:0 10px 0 12px;
+	background:#0089e0;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-moz-box-shadow:2px 2px 5px rgb(136, 136, 136);
+	-webkit-box-shadow:2px 2px 5px rgb(136, 136, 136);
+	box-shadow:2px 2px 5px rgb(136, 136, 136);
+}
+.org-tags li:before{
+	content:"";
+	float:left;
+	position:relative;
+	top:0;
+	left:0px;
+	width:0;
+	height:0;
+	border-color:transparent #0089e0 transparent transparent;
+	border-style:solid;
+	border-width:10px 10px 10px 0;	
+}
+.org-tags li:after {
+	content:"";
+	position:relative;
+	top:8px;
+	right:-webkit-calc(100% - 15px);
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+}
+.org-tags li:hover span {
+	background:#555;
+}
+.org-tags li:hover:before {
+	border-color:transparent #555 transparent transparent;
+}
+
+/* ########  ########   #######   ###### */
+/* ##     ## ##     ## ##     ## ##    ## */
+/* ##     ## ##     ## ##     ## ## */
+/* ########  ########  ##     ## ##   #### */
+/* ##        ##   ##   ##     ## ##    ## */
+/* ##        ##    ##  ##     ## ##    ## */
+/* ##        ##     ##  #######   ###### */
+
+.org-programming-class {
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color:#993344;
+	border-top: 1px solid #993344;
+	border-left: 1px solid #993344;
+	border-right:2px solid #993344;
+	border-bottom:2px solid #993344;
+	border-radius: 3px 3px 3px;
+}
+.org-programming-function {
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	rgb(193, 1, 255);
+}
+.org-programming-return {
+	text-decoration:underline;
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color:red;
+}
+.org-programming-argument {
+	text-decoration:underline;
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color:gray;
+}
+.org-programming-keyword {
+	border-left:solid #943C3A 2px;
+	border-right:solid #943C3A 2px;
+	border-radius:2px 2px 2px 2px;
+	padding-left:2px;
+	padding-right:2px;
+
+	background-color:#EAACAA;
+	color:#943C3A;
+}
+.org-programming-type {
+	color:gray;
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	font-style:italic;
+}
+.org-programming-option {
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	background-color: rgb(253, 227, 227);
+	border-radius: 2px;
+}
+.org-programming-variable {
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color: rgb(18, 150, 33);
+}
+.org-programming-constant {
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color: rgb(189, 132, 4);
+}
+.org-programming-path {
+	color:gray;
+	font-style:italic;
+}
+.org-programming-file {
+	font-style:italic;
+	font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color:#334499;
+	border-top: 1px solid #334499;
+	border-left: 1px solid #334499;
+	border-right:2px solid #334499;
+	border-bottom:2px solid #334499;
+	border-radius: 3px 3px 3px;
+}
+.org-programming-version {
+	font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+	color: rgb(189, 132, 4);
+	border-left: solid 3px rgb(42, 128, 185);
+	padding: 0px 3px;
+	background-color: rgb(223, 242, 255);
+	color: rgb(42, 128, 185);
+	border-radius: 2px;
+}
