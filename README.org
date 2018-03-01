@@ -1,5 +1,30 @@
+#+TITLE: ReadTheOrg
+
 #+TITLE: Read the org
 
-* Version
-** 9.1
-** ~ 9.0.10
+This project provide the HTML theme for Org Mode.
+
+Base codes are from [[https://github.com/fniessen/org-html-themes][org-html-themes on GitHub]].
+
+* Features
+
+** Table of contents
+- Track current scroll's section
+- TOC button for mobile(needs [[https://fontawesome.com/][font-awesome]] font)
+
+*** Desktop version
+[[./examples/toc.jpg]]
+
+*** Mobile version
+[[./examples/toc-mobile.jpg]]
+[[./examples/toc-mobile-clicked.jpg]]
+
+** Source code
+- Display source code language when hovering.
+  [[./examples/source-code.jpg]]
+
+** Emphasis
+- Supports class names for programming labels.
+
+* Example websites
+- [[http://linux-command.org]]
