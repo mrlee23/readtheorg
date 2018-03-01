@@ -881,7 +881,7 @@ footer p{
     bottom:0;
     left:0;
     width:28%; /* my */
-    color:#fcfcfc;
+    color:#2980B9;
     background:#1f1d1d;
     border-top:solid 10px #343131;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
@@ -893,12 +893,12 @@ footer p{
 #postamble .author {
     font-size: 100%;
     margin-bottom: 0px;
+    color: #60B1F5;
 }
 
 #postamble .date {
     font-size: 90%;
     margin-bottom: 0px;
-    color: #27AE60;
 }
 
 #postamble .creator,#postamble .validation {
